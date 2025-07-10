@@ -74,3 +74,10 @@ function solveSudoku(board: string[][]): void {
 }
 
 export { solveSudoku };
+
+/**
+ *  解题思路如下
+ * 1. 将行，列，块分别存储，以供检验
+ * 2. 收集需要填的点
+ * 3. 深度优先，逐次填每个点，如果成功继续，不成功回溯
+ */

@@ -6,8 +6,8 @@
     "test": "jest"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Max Zhang",
+  "license": "MIT",
   "description": "",
   "devDependencies": {
     "@types/jest": "^30.0.0",
